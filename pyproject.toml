@@ -7,7 +7,7 @@ name = "free-claude-code"
 version = "4.12.11"
 description = "Local proxy connecting coding agents to OpenAI-compatible AI providers"
 readme = "README.md"
-requires-python = ">=3.14.0"
+requires-python = ">=3.10"
 dependencies = [
     "fastapi[standard]>=0.139.2",
     "uvicorn>=0.51.0",
@@ -141,3 +141,7 @@ allowed-unresolved-imports = [
     "pystray",
     "PIL",
 ]
+
+[tool.vercel]
+entrypoint = "api/index.py"
+
