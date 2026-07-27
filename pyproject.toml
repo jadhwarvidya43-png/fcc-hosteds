@@ -142,6 +142,3 @@ allowed-unresolved-imports = [
     "PIL",
 ]
 
-[tool.vercel]
-entrypoint = "api/index.py"
-
