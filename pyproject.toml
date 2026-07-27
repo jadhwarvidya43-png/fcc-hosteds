@@ -58,7 +58,7 @@ packages = ["src/free_claude_code"]
 ".env.example" = "free_claude_code/config/env.example"
 
 [tool.uv]
-required-version = ">=0.11.16"
+required-version = ">=0.10.0"
 
 [tool.uv.sources]
 torch = { index = "pytorch-cu130" }
